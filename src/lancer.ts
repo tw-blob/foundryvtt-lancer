@@ -298,6 +298,7 @@ Hooks.once("init", () => {
 
   // Extend TokenConfig for token size automation
   Hooks.on("renderTokenConfig", extendTokenConfig);
+  Hooks.on("renderPrototypeTokenConfig", extendTokenConfig);
 });
 
 Hooks.once("setup", () => {
